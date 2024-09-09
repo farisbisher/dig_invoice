@@ -1,0 +1,106 @@
+/* App.css */
+
+@font-face {
+  font-family: "PoppinsRegular";
+  src: url("/fonts/PoppinsRegular.ttf") format("truetype");
+
+  font-family: "PoppinsSemiBold";
+  src: url("/fonts/PoppinsSemiBold.ttf");
+
+  font-family: "PoppinsLight";
+  src: url("/fonts/PoppinsLight.ttf");
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+p {
+  margin: 0 !important;
+}
+
+.Stat {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.bg-FEFEFA {
+  background-color: #fefefe;
+}
+
+.tHeadFont {
+  font-family: "PoppinsLight", sans-serif !important;
+  color: #505050;
+}
+
+.tableSName {
+  font-family: "PoppinsSemiBold", sans-serif !important;
+  color: #000000;
+  font-size: 24px;
+}
+
+.tableText {
+  font-family: "PoppinsRegular", sans-serif !important;
+  color: #000000;
+  font-size: 19px;
+}
+
+.tableCName {
+  font-family: "PoppinsRegular", sans-serif !important;
+  color: #0000009a;
+  font-size: 12px;
+}
+
+.detailsB {
+  color: #34846f;
+}
+
+.familyText {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600 !important;
+  font-style: normal !important;
+}
+
+/* Hide the sidebar on screens smaller than 768px */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  .rightSide {
+    padding: 1.25rem !important;
+    width: 100% !important;
+  }
+  .Stat {
+    display: inline;
+  }
+  .bigText {
+    font-size: 40px !important;
+  }
+  .smallNum {
+    font-size: 22px !important;
+  }
+
+  .logoImg {
+    display: none !important;
+  }
+
+  .tablaCNames {
+    display: none !important;
+  }
+
+  .jcc {
+    justify-content: center !important;
+  }
+
+  .table-container {
+    overflow-x: auto;
+  }
+
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+}

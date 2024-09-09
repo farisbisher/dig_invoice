@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "PoppinsRegular";
+  src: url("/fonts/PoppinsRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PoppinsSemiBold";
+  src: url("/fonts/PoppinsSemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PoppinsLight";
+  src: url("/fonts/PoppinsLight.ttf") format("truetype");
+}
+
+body {
+  font-family: "PoppinsRegular", sans-serif !important;
+  background-color: #f4f4f4 !important;
+}
+
+p,
+label,
+input {
+  font-family: "PoppinsRegular", sans-serif !important;
+}
+
+label {
+  color: rgba(40, 54, 51, 0.75) !important;
+}
+
+h2 {
+  font-family: "PoppinsSemiBold", sans-serif !important;
+  color: #131515;
+}
+
+.greating {
+  color: rgba(40, 54, 51, 0.5);
+}
+
+.input-field {
+  border: 2px solid rgba(40, 54, 51, 0.5);
+  color: rgba(40, 54, 51, 0.5);
+}
+
+.greenC {
+  background-color: #34846f;
+}
+
+.white {
+  background-color: #ffffff;
+}
+
+.mobile-padding {
+  padding: 1.5rem;
+}
+
+.bold-text {
+  font-family: "PoppinsSemiBold", sans-serif !important;
+}
+
+.logo {
+  color: #131515 !important;
+  font-family: "PoppinsSemiBold", sans-serif !important;
+  font-size: 2rem;
+}
+.login-link {
+  text-decoration: none;
+  color: #34846f;
+}
+
+@media (min-width: 768px) {
+  .desktop-padding {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}

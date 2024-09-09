@@ -1,0 +1,46 @@
+{
+  "name": "ecobill-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "craco build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "build:css": "tailwind build src/index.css -o src/App.css",
+    "start": "craco start",
+    "test": "craco test"
+  },
+  "dependencies": {
+    "@craco/craco": "^5.9.0",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
+    "npm": "^10.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.2.0",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.23.0",
+    "react-typed": "^2.0.12",
+    "sockjs-client": "^1.6.1",
+    "sockjs-client-node": "^1.0.0",
+    "stompjs": "^2.3.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.2.0"
+  }
+}
